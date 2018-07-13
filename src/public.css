@@ -1,0 +1,143 @@
+.public-body{
+    width: 96%;
+    margin: 30px auto 0;
+}
+.public-title-list{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #cecece;
+}
+.public-title-list li{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #353535;
+    font-weight: 900;
+    float: left;
+}
+.public-body-list{
+    width: 100%;
+    height: 40px;
+    border-bottom:1px solid #EAEBEC;
+}
+.public-body-li,.public-body-li ul{
+    width: 100%;
+    border-bottom: 1px solid #EAEBEC;
+}
+.public-body-list li{
+    height: 40px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    font-size: 14px;
+}
+.public-list-button{
+    font-size: 14px;
+    color: #138AEE;
+    cursor: pointer;
+}
+.public-page{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.public-out-box{
+    width: 100vw;
+    height: 100vh;
+    min-width: 1200px;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.public-inner-box{
+    background: #ECF2F6;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.20);
+    border-radius: 4px;
+    position: relative;
+}
+.public-auto{
+    overflow: auto;
+}
+.public-auto::-webkit-scrollbar-track{
+    border-radius: 3px;
+    background: #e9eaec;
+}
+.public-auto::-webkit-scrollbar{
+    width:3px;
+    background: #e9eaec;
+}
+.public-auto::-webkit-scrollbar-thumb{
+    border-radius: 3px;
+    background: #1B2434;;
+}
+.public-inner-title{
+    width: 100%;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 4px 4px 0 0;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+    color: #444444;
+    font-weight: 400;
+}
+.public-close{
+    font-size: 28px;
+    position: absolute;
+    top: 0;
+    right: -40px;
+    cursor: pointer;
+    color: #d8d8d8;
+}
+.public-button{
+    text-align: center;
+    margin-top: 20px;
+}
+.public-button button{
+    width: 120px;
+}
+.public-list-delete{
+    font-size: 14px;
+    color: #E94E4C;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.public-button-group{
+    margin-top: 20px;
+    width: 136px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.public-button-group span{
+    display: inline-block;
+    width: 68px;
+    height: 30px;
+    background: #DBE5EC;
+    font-size: 14px;
+    color: #8690A3;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.public-button-group span.on{
+    background: #138AEE;
+    color: #fff;
+}
+
+/* add */
+.new-file-inner2{
+    height: 210px!important;
+}
